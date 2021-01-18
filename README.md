@@ -1,4 +1,4 @@
-# vue-vuetify
+# Course App
 
 ## Project setup
 ```
