@@ -1,0 +1,40 @@
+import {makeid} from "./helpers.js";
+
+export const courses = [
+  {
+    id: makeid(),
+    name: "Js Basics",
+    slug:"js-basics",
+    description: "Basic JS topics for dummies, classes, variables and more",
+    maxStudents: 10,
+    created: "October 2020",
+    professor: "Jva God",
+    price: 2000,
+    img: "javascript.svg",
+    alt: "javascript logo",
+  },
+  {
+    id: makeid(),
+    name: "Vue Essentials",
+    slug:"vue-essentials",
+    description: "All you need to know about the best Frontend Framework",
+    maxStudents: 40,
+    created: "January 2021",
+    professor: "Vue Mastery",
+    price: 1000,
+    img: "logo.png",
+    alt: "vue logo",
+  },
+  {
+    id: makeid(),
+    name: "React Components",
+    slug:"react-components",
+    description: "Get in love with the magic of React components!",
+    maxStudents: 77,
+    created: "March 2021",
+    professor: "React Academy",
+    price: 200,
+    img: "react-1.svg",
+    alt: "react logo",
+  },
+];
